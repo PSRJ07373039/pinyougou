@@ -1,0 +1,111 @@
+/* 列表页专有css */
+.nav {
+    overflow: hidden;
+}
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    border-left: 1px solid #b1191a;
+    padding: 2px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 27px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.sk_cont {
+    float: left;
+}
+.sk_cont ul li {
+    float: left;
+}
+.sk_cont ul li a{
+    display: block;
+    line-height: 49px;
+    padding: 0 23px;
+    font-size: 14px;
+}
+.sk_cont ul li:last-child a::after {
+    content: '\e91e';
+}
+
+/* 列表页主体部分 */
+.sk_bd ul li {
+    float: left;
+    width: 291px;
+    height: 460px;
+    margin-right: 12px;
+    margin-top: 20px;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li>a {
+    display: block;
+    text-align: center;
+}
+.sk_bd ul li p {
+    padding: 10px
+}
+.sk_bd ul li>i {
+    font-size: 22px;
+    color: #e60012;
+    margin: 0 10px;
+}
+
+.sk_bd ul li del {
+    font-size: 14px;
+    color: #a4a4a4;
+}
+
+.info {
+    text-align: center;
+}
+.info .storage {
+    font-size: 14px;
+    margin: 5px 0;
+}
+.info .storage span {
+    position: relative;
+    display: inline-block;
+    width: 133px;
+    height: 12px;
+    border: 1px solid #ed282e;
+    border-radius: 6px;
+    text-align: left;
+}
+.info .storage span b {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 110px;
+    height: 10px;
+    border-radius: 6px 0 0 6px;
+    background-color: #ed282e;
+}
+.info .storage i {
+    color: #e60012;
+}
+.info em {
+    display: inline-block;
+    width: 291px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #b1191a;
+}
